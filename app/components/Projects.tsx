@@ -8,6 +8,7 @@ import EliteGrills from '@/assets/projects/elitegrills.png'
 import cmat from '@/assets/projects/cmat.png'
 import smartpay from '@/assets/projects/phone app.png'
 import yipworks from '@/assets/projects/yipworks.png'
+import shopify from '@/assets/projects/shopify.png'
 
 interface Project {
   title: string
@@ -55,6 +56,15 @@ const projects: Project[] = [
     details: 'The website promotes SmartPay’s mission to power Africa’s digital economy by offering a secure, scalable solution for sending, receiving, and managing money instantly—enhancing financial access and efficiency across the continent.',
    //Github: 'https://github.com/FENADISx/SmartPay',
     website: 'https://www.smartpay.co.ke'
+  },
+  {
+    title: 'BLOSSOMS',
+    description: 'Blossoms is a platform that sells flowers online for events on shopify.',
+    image: shopify,
+    tags: ['shopify'],
+    details: 'Blossoms is a platform that sells flowers online for events on shopify.',
+   //Github: 'https://github.com/FENADISx/SmartPay',
+    website: 'https://i1rrum-1n.myshopify.com/'
   }
 ]
 

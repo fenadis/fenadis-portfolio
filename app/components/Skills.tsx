@@ -20,6 +20,7 @@ import Firebase from '@/app/icons/Firebase'
 import Azure from '@/app/icons/Azure'
 import Docker from '@/app/icons/Docker'
 import Kubernetes from '@/app/icons/Kubernetes'
+import Shopify from '@/app/icons/Shopify'
 
 
 interface Skill {
@@ -47,6 +48,7 @@ const skills: Skill[] = [
   { name: 'Azure', icon: <Azure />, description: 'Microsoft\'s cloud computing platform.', category: 'cloud' },
   { name: 'Docker', icon: <Docker />, description: 'Containerization for consistent deployment.', category: 'other' },
   { name: 'Kubernetes', icon: <Kubernetes />, description: 'Containerization for consistent deployment.', category: 'other' },
+  { name: 'Shopify', icon: <Shopify />, description: 'Shopify for e-commerce.', category: 'other' }
 ]
 
 const categories = [
